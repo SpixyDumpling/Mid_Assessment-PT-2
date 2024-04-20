@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MixMingle Sipology Spirits</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #e6e6e6;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .hero {
+      position: relative;
+      background: url("img/habanera.jpg") no-repeat center center fixed;
+      background-size: cover;
+      height: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Italiana', serif;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+
+    .hero-text {
+      color: #fff;
+      text-align: center;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      z-index: 1;
+
+    }
+
+    .hero h1 {
+      font-size: 70px;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .spirit-card {
+      margin-bottom: 50px;
+    }
+
+    .spirit-card img {
+      height: 400px;
+      width: 100%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .card-title {
+      font-weight: bold;
+      font-family: 'Italiana', serif;
+      font-size: xx-large;
+    }
+
+    .carousel-caption {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .carousel-caption h5 {
+      font-weight: bold;
+    }
+
+    .carousel-item img {
+      height: 500px;
+      object-fit: cover;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #fff;
+    }
+  </style>
+</head>
+
+
+
+<body>
+  <div class="hero">
+    <div class="hero-text">
+      <h1>MixMingle Sipology </h1>
+      <h2>Finding The Right Bevarage For You</h2>
+    </div>
+  </div>
+
+
+
+  <div class="container my-5">
+    <h2 class="text-center mb-4"><strong>Sip, Mix, Mingle: Where Every Pour Tells a Tale of Liquid Artistry</strong></h2>
+    <div class="row">
+      <div class="col-md">
+        <p>For enthusiasts and mixologists seeking a spirited adventure, MixMingle Sipology is your
+          passport to
+          a world of flavors. Dive into the diverse realms of alcohol, experiment with creative
+          concoctions, and
+          join a community that celebrates the artistry of mixing and sipping. Engage with MixMingle
+          Sipology
+          because every drink tells a story, and every mix is an invitation to a memorable journey.
+        </p>
+      </div>
+
+
+      <div class="container my-5">
+        <h2 class="text-center mb-4"><strong>Spirit Showcase: Explore the Elixir Universe</strong></h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="spirit-card">
+              <img src="img/whiskey.jpg" alt="Whiskey">
+              <div class="card-body">
+                <h5 class="card-title">Whiskey</h5>
+                <p class="card-text">A varied and diverse spirit with many different varieties and regional tastes and
+                  flavors that go
+                  into
+                  them. At its core, whiskey is a distilled grain spirit, typically made from corn, barley, wheat,
+                  and
+                  rye, which is then aged in wooden barrels.
+                  Whiskey is noted for its caramel and vanilla notes and flavors, as well as the woody and warm
+                  flavors
+                  common in whiskey. There are many different specific types of regional whiskey styles, from
+                  bourbon
+                  whiskey, rye whiskey, Irish whiskey, Scotch whisky, Japanese whisky, and Tennessee whiskey. Each
+                  whiskey
+                  is unique in flavor, but common flavor notes across varieties of whiskey are warm, spicy,
+                  caramelly,
+                  nutty, woody, and toasty.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6">
+            <div class="spirit-card">
+              <img src="img/vodka.jpg" alt="Vodka">
+              <div class="card-body">
+                <h5 class="card-title">Vodka</h5>
+                <p class="card-text">
+                  Vodka is a clear, colorless spirit made from the distillation of grains or potatoes. It's known for
+                  its
+                  high alcohol content, typically 40-50%. It's the most popular spirit in the world and for good
+                  reason:
+                  it's highly versatile and its neutral flavor makes it the perfect choice for many different
+                  cocktails
+                  like Martinis and Cosmopolitans and in mixed drinks and shots too. It's a must-have in every home
+                  bar
+                  and for any occasion.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="spirit-card">
+              <img src="img/tequila.jpg" alt="Tequila">
+              <div class="card-body">
+                <h5 class="card-title">Tequila</h5>
+                <p class="card-text">
+                  A distilled spirit made from the Agave tequilana Weber Blue, blue agave or Agave Azul, and produced
+                  only
+                  in five areas of Mexico: Jalisco, Guanajuato, Michoacan, Tamaulipas, and Nayarit – these are known
+                  as
+                  the Denomination of Origin Tequila. There are many varieties of tequila and the main types are
+                  Blanco
+                  (white) or Plata (silver), Joven (young) or Oro (gold), Reposado (rested), Añejo, Extra Añejo, and
+                  Curados.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6">
+            <div class="spirit-card">
+              <img src="img/rum.jpg" alt="Rum">
+              <div class="card-body">
+                <h5 class="card-title">Rum</h5>
+                <p class="card-text">One of the most versatile spirits and comes in various shapes and forms with its
+                  singular
+                  consistency
+                  being that all are made from sugarcane. Beyond that, each type of rum hosts its own attributes,
+                  distillation and aging process, flavors, and styles. It can be aged from one year to multiple
+                  decades,
+                  achieving different flavors and visual characteristics with each year it is aged.</p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="spirit-card">
+              <img src="img/gin.jpg" alt="Gin">
+              <div class="card-body">
+                <h5 class="card-title">Gin</h5>
+                <p class="card-text">
+                  A distilled alcoholic drink flavored with juniper berries and other botanical ingredients. It is
+                  most
+                  noted for its pine flavor due to its main ingredient, juniper berries. There are a variety of
+                  styles,
+                  from the famous London dry gins to modern gins that are less piney and more approachable. It's the
+                  main
+                  ingredient in a classic martini and vital to the iconic gin and tonic, but there are many great
+                  cocktail
+                  recipes that show off the botanical spirit.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6">
+            <div class="spirit-card">
+              <img src="img/brandy.jpg" alt="Brandy">
+              <div class="card-body">
+                <h5 class="card-title">Brandy</h5>
+                <p class="card-text">A spirit made from distilled wine or other fermented fruit juices. Although most
+                  Brandy is made from
+                  distilled wine, other styles from all over the world use fruits such as pears, cherries, apples,
+                  etc.
+                  Brandy, like many spirits, gets even better with age. The designation of the style depends on how
+                  long
+                  the spirit has been aged.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-5">
+        <h2 class="text-center mb-4"><strong>Discover The Perfect Mix</strong></h2>
+        <ul>
+          <li>Shaken, Stirred, Sipped</li>
+          <li>Elevate Your Pour</li>
+          <li>Cheers to Culinary Companions</li>
+          <li>Insider Insights, Expert Advice</li>
+        </ul>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+          </ol>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/campfire-mules.jpg" class="d-block w-100" alt="whiskey mix drink">
+              <div class="carousel-caption ">
+                <h5>Shaken, Stirred, Sipped</h5>
+                <p>Journey through an array of cocktail recipes. From timeless classics to trendy mixes, learn the art
+                  of mixology and how to craft the perfect drink for any occasion.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="img/garnishes.jpg" class="d-block w-100" alt="lemon berry garnish on drink">
+              <div class="carousel-caption ">
+                <h5>Elevate Your Pour</h5>
+                <p>Uncover unique and signature drink recipes designed to impress your guests or simply elevate your
+                  personal drinking experience. From crafted infusions to dazzling garnishes, discover the secret behind
+                  exceptional sips.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="img/oyster.jpg" class="d-block w-100" alt="tray of oysters with drink">
+              <div class="carousel-caption ">
+                <h5>Cheers to Culinary Companions</h5>
+                <p>Delve into the world of drink and food pairings. Learn how to harmonize flavors and elevate your
+                  dining experience by matching the perfect libation with your favorite dishes.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="img/insighter.jpg" class="d-block w-100" alt="expert making drinks">
+              <div class="carousel-caption ">
+                <h5>Insider Insights, Expert Advice</h5>
+                <p>Access tips, tricks, and insights from seasoned mixologists. Whether you're a beginner or a seasoned
+                  pro, enhance your mixology skills and stay updated on the latest trends.</p>
+              </div>
+            </div>
+          </div>
+
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+
+        <footer class="container">
+          <p><a href="contactus.html">Contact Us</a></p>
+          &copy; 2024 MixMingle Sipology
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+          crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
